@@ -32,17 +32,17 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let count = 0;
+  let counts = 0;
   for(let i=0; i<arrayOfNumbers.length; i++){
     if(i === 0 || i % 2 !== 0){
-       count ;
+       counts ;
     }
     else{
-      count += 1;
+      counts += 1;
     }
    
   }
-    return count;
+    return counts;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
